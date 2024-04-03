@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .section-header h2 {
+            margin: 0;
+        }
+
+        .order {
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .order-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .order-header h3 {
+            margin: 0;
+        }
+
+        .order-status {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .earnings {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="section-header">
+                <h2>Orders to Deliver</h2>
+                <div class="earnings">$125.50</div>
+            </div>
+            <div class="order">
+                <div class="order-header">
+                    <h3>Order #12345</h3>
+                    <div class="order-status">Pending</div>
+                </div>
+                <p>Customer: John Doe</p>
+                <p>Address: 123 Main St</p>
+                <p>Total: $25.50</p>
+            </div>
+            <div class="order">
+                <div class="order-header">
+                    <h3>Order #54321</h3>
+                    <div class="order-status">Pending</div>
+                </div>
+                <p>Customer: Jane Smith</p>
+                <p>Address: 456 Elm St</p>
+                <p>Total: $50.00</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <h2>Delivered Orders</h2>
+                <div class="earnings">$220.75</div>
+            </div>
+            <div class="order">
+                <div class="order-header">
+                    <h3>Order #98765</h3>
+                    <div class="order-status">Delivered</div>
+                </div>
+                <p>Customer: Sarah Johnson</p>
+                <p>Address: 789 Oak St</p>
+                <p>Total: $75.25</p>
+            </div>
+            <div class="order">
+                <div class="order-header">
+                    <h3>Order #24680</h3>
+                    <div class="order-status">Delivered</div>
+                </div>
+                <p>Customer: Michael Brown</p>
+                <p>Address: 101 Pine St</p>
+                <p>Total: $145.50</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <h2>Total Earnings</h2>
+                <div class="earnings">$346.25</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
