@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earnings Tracker</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #007bff;
+    }
+
+    /* Table styles */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    /* Total earnings row */
+    .total-row, .monthly-row, .yearly-row {
+      font-weight: bold;
+    }
+
+    .total-row {
+      background-color: #f8f9fa;
+    }
+
+    .monthly-row, .yearly-row {
+      background-color: #d4edda;
+    }
+
+    .rupee-sign {
+      font-size: 18px;
+      margin-right: 5px;
+    }
+
+    /* Hover effect */
+    .back-link {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 30px;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-link:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Earnings Tracker</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Delivery Title</th>
+          <th>Order ID</th>
+          <th>Customer Name</th>
+          <th>Restaurant</th>
+          <th>Total Earnings (₹)</th>
+          <th>Delivery Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Delivery Title 1</td>
+          <td>#123456</td>
+          <td>Rajat Kumar Thakur</td>
+          <td>XYZ Restaurant</td>
+          <td>90</td>
+          <td>April 1, 2024</td>
+        </tr>
+        <tr>
+          <td>Delivery Title 2</td>
+          <td>#789012</td>
+          <td>Tanay Patel</td>
+          <td>ABC Restaurant</td>
+          <td>135</td>
+          <td>March 28, 2024</td>
+        </tr>
+        <tr>
+          <td>Delivery Title 3</td>
+          <td>#345678</td>
+          <td>Abhi Bapu</td>
+          <td>PQR Restaurant</td>
+          <td>180</td>
+          <td>March 25, 2024</td>
+        </tr>
+        <tr class="total-row">
+          <td colspan="4">Total Earnings</td>
+          <td>405</td>
+          <td></td>
+        </tr>
+        <tr class="monthly-row">
+          <td colspan="4">This Month's Earnings</td>
+          <td>90</td>
+          <td></td>
+        </tr>
+        <tr class="yearly-row">
+          <td colspan="4">This Year's Earnings</td>
+          <td>315</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <a href="./rider_app.html" class="back-link">Back to Main Page</a>
+  </div>
+</body>
+
+</html>
