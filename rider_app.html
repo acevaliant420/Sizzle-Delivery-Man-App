@@ -28,24 +28,21 @@
     <div class="container">
       <div class="header__navbar">
         <div class="header__menu--left-side">
-          <a href="./account.html">
-            <img class="header__menu--logo" src="./img/main_logo.svg" alt="Food delivery website logo" />
+          <a href="./rider_app.html">
+            <img class="header__menu--logo" src="./img/logo.png" alt="Food delivery website logo" />
           </a>
         </div>
-    
+
         <div class="header__menu--right-side">
           <nav class="header__menu--link">
-            <a class="menu_link" href="#">Restaurants</a>
-            <a class="menu_link" href="#">Deals</a>
+            <a class="menu_link" href="#">Upcoming Deliveries</a>
             <span class="header__menu--divider-vertical"></span>
-            <a class="menu_link active" href="#">My orders</a>
+            <a class="menu_link" href="#">Past Deliveries</a>
+            <span class="header__menu--divider-vertical"></span>
+            <a class="menu_link active" href="#">Track Earnings</a>
           </nav>
-          <div class="header__menu--icon">
-            <a href="#"><img class="header__menu--icon-item" src="img/shopping bag.svg" alt="shopping bag icon" /></a>
-            <span class="header__menu--icon-number">4</span>
-          </div>
-          <a href="#">
-            <img class="header__menu--useravatar" src="img/useravatar.svg" alt="useravatar img" />
+          <a href="./rider_app.html">
+            <img class="header__menu--useravatar" src="img/man_photo.png" alt="useravatar img" />
           </a>
           <span class="header__menu--divider-vertical"></span>
           <img class="header__menu--icon-mobile" src="img/menu.svg" alt="header menu icon" />
@@ -54,12 +51,13 @@
     </div>
   </header>
 
+
   <section class="setting">
     <div class="container">
       <div class="settings">
         <div class="setting__left--side">
-          <h3 class="setting__left--side-title">Dashboard</h3>
-          <a class="settings_account-inner" href="#">
+          <h3 class="setting__left--side-title">Account Information</h3>
+          <a class="settings_account-inner" href="./rider_app.html">
             <div class="account_img">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -71,10 +69,11 @@
               </svg>
             </div>
             <div class="settings__left--account-content">
-              <div class="settings__left--account-name">Account</div>
-              <div class="settings__left--account-txt">Personal information</div>
+              <div class="settings__left--account-name">Personal information</div>
+              <div class="settings__left--account-txt">Update your personal details</div>
             </div>
           </a>
+          <h3 class="setting__left--side-title">Deliveries</h3>
           <a class="settings_account-inner" href="#">
             <div class="account_img">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,109 +84,86 @@
                   d="M10 10.8333C11.3807 10.8333 12.5 9.71404 12.5 8.33333C12.5 6.95262 11.3807 5.83333 10 5.83333C8.61929 5.83333 7.5 6.95262 7.5 8.33333C7.5 9.71404 8.61929 10.8333 10 10.8333Z"
                   stroke="#83859C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
-
             </div>
             <div class="settings__left--account-content">
-              <div class="settings__left--account-name">Deliveries</div>
-              <div class="settings__left--account-txt">Upcoming Deliveries</div>
+              <div class="settings__left--account-name">Upcoming Deliveries</div>
+              <div class="settings__left--account-txt">Orders to be delivered</div>
             </div>
           </a>
-          <a class="settings_account-inner" href="#">
+          <a class="settings_account-inner" href="./past.html">
             <div class="account_img">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
-                  d="M17.5 3.33334H2.49998C1.5795 3.33334 0.833313 4.07953 0.833313 5V15C0.833313 15.9205 1.5795 16.6667 2.49998 16.6667H17.5C18.4205 16.6667 19.1666 15.9205 19.1666 15V5C19.1666 4.07953 18.4205 3.33334 17.5 3.33334Z"
+                  d="M17.5 8.33333C17.5 14.1667 10 19.1667 10 19.1667C10 19.1667 2.5 14.1667 2.5 8.33333C2.5 6.3442 3.29018 4.43655 4.6967 3.03003C6.10322 1.6235 8.01088 0.833328 10 0.833328C11.9891 0.833328 13.8968 1.6235 15.3033 3.03003C16.7098 4.43655 17.5 6.3442 17.5 8.33333Z"
                   stroke="#83859C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M0.833313 8.33334H19.1666" stroke="#83859C" stroke-width="1.5" stroke-linecap="round"
+                <path d="M10 10.8333C11.3807 10.8333 12.5 9.71404 12.5 8.33333C12.5 6.95262 11.3807 5.83333 10 5.83333C8.61929 5.83333 7.5 6.95262 7.5 8.33333C7.5 9.71404 8.61929 10.8333 10 10.8333Z" stroke="#83859C" stroke-width="1.5" stroke-linecap="round"
                   stroke-linejoin="round" />
               </svg>
-
             </div>
             <div class="settings__left--account-content">
-              <div class="settings__left--account-name">Payment method</div>
-              <div class="settings__left--account-txt">Connected credit cards</div>
+              <div class="settings__left--account-name">Past Deliveries</div>
+              <div class="settings__left--account-txt">View your past deliveries</div>
             </div>
           </a>
+          <h3 class="setting__left--side-title">Earnings</h3>
           <a class="settings_account-inner" href="#">
             <div class="account_img">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
-                  d="M9.99998 18.3333C9.99998 18.3333 16.6666 15 16.6666 10V4.16667L9.99998 1.66667L3.33331 4.16667V10C3.33331 15 9.99998 18.3333 9.99998 18.3333Z"
+                  d="M 9.320312 1.890625 L 12.699219 1.890625 L 13.996094 0 L 1.300781 0 L 0.00390625 1.890625 L 2.207031 1.890625 C 4.4375 1.890625 6.496094 2.058594 7.320312 3.871094 L 1.308594 3.871094 L 0.015625 5.761719 L 7.5625 5.761719 C 7.5625 7.121094 6.40625 9.203125 2.570312 9.203125 L 0.714844 9.203125 L 0.714844 10.96875 L 8.152344 20 L 11.464844 20 L 3.769531 10.667969 C 6.933594 10.5 9.910156 8.777344 10.335938 5.761719 L 12.699219 5.761719 L 13.996094 3.875 L 10.304688 3.875 C 10.164062 3.140625 9.824219 2.453125 9.320312 1.890625 Z M 9.320312 1.890625"
                   stroke="#83859C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
-
             </div>
             <div class="settings__left--account-content">
-              <div class="settings__left--account-name">Security</div>
-              <div class="settings__left--account-txt">Password, 2FA</div>
+              <div class="settings__left--account-name">Track Earnings</div>
+              <div class="settings__left--account-txt">Check your total earnings</div>
             </div>
           </a>
         </div>
         <div class="setting__right--side">
-          <h3 class="setting__right--side-title">Account</h3>
+          <h3 class="setting__right--side-title">Account Settings</h3>
           <div class="setting__right--side-inner">
             <h2 class="setting__right--side-InnerTxt">Personal information</h2>
             <p class="setting__right--side-ImgTxt">Avatar</p>
             <div class="setting__right--side-ChangeUserImg">
-              <img class="setting__right--side-UserImg" src="./img/account avatar.svg" alt="account avatar">
-              <button class="btn btn-primary-outline setting__right--side-btnChange">Change</button>
-              <button class="setting__right--side-btnRemove">Remove</button>
+              <img class="setting__right--side-UserImg" src="./img/newman.png" alt="account avatar">
             </div>
             <div class="setting__right--side-input">
               <div class="input-box">
                 <label for="name">First Name</label>
-                <input type="text" name="name" id="name" required placeholder="Jane">
+                <input type="text" name="name" id="name" required placeholder="Gajendra">
               </div>
               <div class="input-box">
                 <label for="lastname">Last Name</label>
-                <input type="text" name="lastname" id="lastname" required placeholder="Robertson">
+                <input type="text" name="lastname" id="lastname" required placeholder="Patel">
               </div>
               <div class="input-box">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" required placeholder="jane.robertson@example.com">
+                <input type="email" name="email" id="email" required placeholder="gajendra.patel@example.com">
               </div>
               <div class="input-box">
                 <label for="number">Phone number</label>
-                <input type="number" name="number" id="number" required placeholder="(217) 555-0113">
+                <input type="number" name="number" id="number" required placeholder="+91 88105 44717">
               </div>
             </div>
             <div class="setting__right--side-notice">
-              <h3 class="setting__right--side-InnerTxt">Email notifications</h3>
-              <form action="#">
-                <div class="setting__right--side-inputNoticeLeft">
-                  <input type="checkbox" id="notice1" name="notice1" value="f1">
-                  <label for="notice1">New deals</label>
-                  <input type="checkbox" id="notice2" name="notice1" value="f2">
-                  <label for="notice2">New restaurants</label>
-                  <input type="checkbox" id="notice3" name="notice1" value="f3">
-                  <label for="notice3">Order statuses</label>
-                </div>
-                <div class="setting__right--side-inputNoticeRight">
-                  <input type="checkbox" id="notice4" name="notice1" value="f4">
-                  <label for="notice4">Password changes</label>
-                  <input type="checkbox" id="notice5" name="notice1" value="f5">
-                  <label for="notice5">Special offers</label>
-                  <input type="checkbox" id="notice6" name="notice1" value="f6">
-                  <label for="notice6">Newsletter</label>
-                </div>
-              </form>
+
             </div>
-            <div class="setting__right--btn">
+          </div>
+          <div class="setting__right--btn">
+            <div>
+              <button class="btn btn-danger-outline LogOutBtn">Log out</button>
+            </div>
+            <span class="setting__right--btn-border"></span>
+            <div class="setting__right--mobile-btn">
+
               <div>
-                <button class="btn btn-danger-outline LogOutBtn">Log out</button>
-              </div>
-              <span class="setting__right--btn-border"></span>
-              <div class="setting__right--mobile-btn">
-                <div>
-                  <button class="btn DiscardBtn" disabled>Discard changes</button>
-                </div>
-                <div>
-                  <button class="btn btn-primary SaveBtn">Save changes</button>
-                </div>
+                <button class="btn btn-primary SaveBtn">Save changes</button>
               </div>
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   </section>

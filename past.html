@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Past Deliveries</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #007bff;
+    }
+
+    /* Delivery item styles */
+    .delivery-item {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #f1f1f1;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+
+    .delivery-item:hover {
+      background-color: #e3e3e3;
+    }
+
+    .serial-number {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #ccc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      font-size: 24px;
+      color: #fff;
+      margin-right: 20px;
+    }
+
+    .delivery-info {
+      flex-grow: 1;
+      margin-left: 20px;
+    }
+
+    .delivery-info h3 {
+      margin: 0 0 10px;
+      color: #333;
+    }
+
+    .delivery-info p {
+      margin: 5px 0;
+      color: #666;
+    }
+
+    .earnings-per-order {
+      background-color: #baf49d;
+      border: 1px solid #0f4100;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 10px;
+      margin-bottom: 15px; /* Added margin-bottom */
+    }
+
+    .rupee-sign {
+      font-size: 18px;
+      margin-right: 5px;
+    }
+
+    .status {
+      font-weight: bold;
+      color: #007bff;
+    }
+
+    .back-link {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 30px;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-link:hover {
+      background-color: #444;
+    }
+
+    /* Spacing */
+    .delivery-item {
+      margin-bottom: 30px;
+    }
+
+    .serial-number {
+      margin-right: 30px;
+    }
+
+    .back-link {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Past Deliveries</h1>
+    <div class="delivery-item">
+      <div class="serial-number">1</div>
+      <div class="delivery-info">
+        <h3>Delivery Title 1</h3>
+        <p>Description: Leave with security guard.</p>
+        <p>Order ID: #123456</p>
+        <p>Customer Name: Rajat Kumar Thakur</p>
+        <p>Restaurant: XYZ Restaurant</p>
+        <p>Status: <span class="status">Delivered</span></p>
+        <div class="earnings-per-order">
+          <h4>Earnings on this order</h4>
+          <p>Total: <span class="rupee-sign">&#8377;</span>100</p>
+          <p>Tips: <span class="rupee-sign">&#8377;</span>10</p>
+          <p>Net: <span class="rupee-sign">&#8377;</span>90</p>
+        </div>
+        <div class="delivery-date" style="margin-top: 15px;">Delivered on: April 1, 2024</div> <!-- Added margin-top -->
+      </div>
+    </div>
+    <div class="delivery-item">
+      <div class="serial-number">2</div>
+      <div class="delivery-info">
+        <h3>Delivery Title 2</h3>
+        <p>Description: Do not ring the bell.</p>
+        <p>Order ID: #789012</p>
+        <p>Customer Name: Tanay Patel</p>
+        <p>Restaurant: ABC Restaurant</p>
+        <p>Status: <span class="status">Delivered</span></p>
+        <div class="earnings-per-order">
+          <h4>Earnings on this order</h4>
+          <p>Total: <span class="rupee-sign">&#8377;</span>150</p>
+          <p>Tips: <span class="rupee-sign">&#8377;</span>15</p>
+          <p>Net: <span class="rupee-sign">&#8377;</span>135</p>
+        </div>
+        <div class="delivery-date">Delivered on: March 28, 2024</div>
+      </div>
+    </div>
+    <div class="delivery-item">
+      <div class="serial-number">3</div>
+      <div class="delivery-info">
+        <h3>Delivery Title 3</h3>
+        <p>Description: Leave at Doorstep.</p>
+        <p>Order ID: #345678</p>
+        <p>Customer Name: Abhi Bapu</p>
+        <p>Restaurant: PQR Restaurant</p>
+        <p>Status: <span class="status">Delivered</span></p>
+        <div class="earnings-per-order">
+          <h4>Earnings on this order</h4>
+          <p>Total: <span class="rupee-sign">&#8377;</span>200</p>
+          <p>Tips: <span class="rupee-sign">&#8377;</span>20</p>
+          <p>Net: <span class="rupee-sign">&#8377;</span>180</p>
+        </div>
+        <div class="delivery-date">Delivered on: March 25, 2024</div>
+      </div>
+    </div>
+
+    <a href="./rider_app.html" class="back-link">Back to Main Page</a>
+  </div>
+</body>
+
+</html>

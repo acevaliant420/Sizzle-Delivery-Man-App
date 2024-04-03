@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcoming Deliveries</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #007bff;
+    }
+
+    /* Order item styles */
+    .order-item {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #f1f1f1;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+
+    .order-item:hover {
+      background-color: #e3e3e3;
+    }
+
+    .order-info {
+      flex-grow: 1;
+      margin-left: 20px;
+    }
+
+    .order-info h3 {
+      margin: 0 0 10px;
+      color: #333;
+    }
+
+    .order-info p {
+      margin: 5px 0;
+      color: #666;
+    }
+
+    .mode-of-payment {
+      font-weight: bold;
+      color: #28a745;
+    }
+
+    .restaurant-name {
+      font-weight: bold;
+      margin-top: 10px;
+      color: #333;
+    }
+
+    .back-link {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 30px;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-link:hover {
+      background-color: #444;
+    }
+
+    /* Yellow box for earnings */
+    .earnings-box {
+      background-color: #ffc107;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    .earnings-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .earnings-details {
+      margin-left: 15px;
+      color: #333;
+      font-size: 18px;
+    }
+
+    .rupee-sign {
+      font-size: 18px;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Upcoming Deliveries</h1>
+    <div class="order-item">
+      <div class="order-info">
+        <h3>Order Title 1</h3>
+        <p>Description: Please take more peri peri seasoning.</p>
+        <p>Customer Name: Sanskar Koserwal</p>
+        <p>Address: Opp. Gangram Atta Chakki, Surat, India</p>
+        <p>Mode of Payment: <span class="mode-of-payment">Credit Card</span></p>
+        <p>Restaurant: XYZ Restaurant</p>
+        <p>Restaurant Address: 11th Avenue, Surat, India</p>
+        <p>Total Order Amount: <span class="rupee-sign">&#8377;</span>780</p>
+        <div class="restaurant-name">Expected Delivery: 30 minutes</div>
+        <div class="earnings-box">
+          <div class="earnings-title">Total Earnings (Driver):</div>
+          <div class="earnings-details"><span class="rupee-sign">&#8377;</span>50</div>
+        </div>
+      </div>
+    </div>
+
+    <a href="./rider_app.html" class="back-link">Back to Main Page</a>
+  </div>
+</body>
+
+</html>
