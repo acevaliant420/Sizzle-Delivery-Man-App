@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eefb3264-a7ea-43f2-a857-e3347ce17d01" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../tempelates/upcoming.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/../tempelates/upcoming.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="eefb3264-a7ea-43f2-a857-e3347ce17d01" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,20 +21,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.pytest in test_1LogInSignup.py.executor": "Run",
+    "Python tests.pytest in test_2UpcomingDeliveries.py.executor": "Run",
+    "Python tests.pytest in test_3PastDeliveries.py.executor": "Run",
+    "Python tests.pytest in test_4TrackEarnings.py.executor": "Run",
+    "Python tests.pytest in test_5EditPersonalInformations.py.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -54,6 +57,7 @@
       <updated>1713365341925</updated>
       <workItem from="1713365344447" duration="576000" />
       <workItem from="1713412659599" duration="75000" />
+      <workItem from="1713412746351" duration="301000" />
     </task>
     <servers />
   </component>
