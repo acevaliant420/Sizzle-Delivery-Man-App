@@ -73,18 +73,23 @@
       color: #333;
     }
 
-    .back-link {
+    .back-link,
+    #markCompletedBtn,
+    #markPickedUpBtn {
       display: inline-block;
       padding: 10px 20px;
       background-color: #333;
       color: #fff;
       text-decoration: none;
       border-radius: 5px;
-      margin-top: 30px;
+      margin-top: 10px;
+      margin-right: 10px;
       transition: background-color 0.3s ease;
     }
 
-    .back-link:hover {
+    .back-link:hover,
+    #markCompletedBtn:hover,
+    #markPickedUpBtn:hover {
       background-color: #444;
     }
 
@@ -172,8 +177,34 @@
       </div>
     </div>
 
+    <button id="markCompletedBtn" onclick="markAsCompleted()">Mark as Completed</button>
+    <button id="markPickedUpBtn" onclick="markAsPickedUp()">Mark as Picked Up</button>
+
     <a href="home" class="back-link">Back to Main Page</a>
   </div>
+
+  <script>
+    function markAsCompleted() {
+      // Remove the order item and hide the button
+      document.querySelector('.order-item').remove();
+      document.getElementById('markCompletedBtn').style.display = 'none';
+
+      // Show message for no upcoming deliveries
+      const noDeliveriesMessage = document.createElement('p');
+      noDeliveriesMessage.textContent = 'No upcoming deliveries.';
+      document.querySelector('.container').appendChild(noDeliveriesMessage);
+    }
+
+    function markAsPickedUp() {
+      // Show the "Order Picked up Successfully" message
+      const pickedUpMessage = document.createElement('p');
+      pickedUpMessage.textContent = 'Order Picked up Successfully';
+      document.querySelector('.container').appendChild(pickedUpMessage);
+
+      // Hide the "Mark as Picked Up" button after it's clicked
+      document.getElementById('markPickedUpBtn').style.display = 'none';
+    }
+  </script>
 </body>
 
 </html>
